@@ -1,16 +1,16 @@
-🛒 E-Commerce Sales & Customer Analytics Database
+# 🛒 E-Commerce Sales & Customer Analytics Database
 
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white&color=4479A1)
 ![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-A MySQL project simulating a real-world e-commerce business â€” a normalized relational database, realistic transactional data, and SQL queries ranging from basic to advanced to solve real business problems.
+A MySQL project simulating a real-world e-commerce business — a normalized relational database, realistic transactional data, and SQL queries ranging from basic to advanced to solve real business problems.
 
 **Author:** Harsh Tripathi
 
 ---
 
-📑 Table of Contents
+## 📑 Table of Contents
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
 - [Repository Structure](#repository-structure)
@@ -27,7 +27,7 @@ A MySQL project simulating a real-world e-commerce business â€” a normalize
 This project covers the full workflow of building a relational database:
 1. Designing a normalized schema
 2. Inserting realistic transactional data
-3. Writing SQL queries â€” from simple lookups to joins, subqueries, and window functions â€” to answer common e-commerce business questions
+3. Writing SQL queries — from simple lookups to joins, subqueries, and window functions — to answer common e-commerce business questions
 
 ## Tech Stack
 - **Database:** MySQL
@@ -35,9 +35,9 @@ This project covers the full workflow of building a relational database:
 
 ## Repository Structure
 ```
-â”œâ”€â”€ HARSH Ecommerce_SQL_Project_MySQL1.sql   # Full script: schema + data + all queries with results as comments
-â”œâ”€â”€ Ecommerce_SQL_Project_Report_2.pdf        # Formatted report of every query and its result
-â””â”€â”€ README.md
+├── HARSH Ecommerce_SQL_Project_MySQL1.sql   # Full script: schema + data + all queries with results as comments
+├── Ecommerce_SQL_Project_Report_2.pdf        # Formatted report of every query and its result
+└── README.md
 ```
 
 ## Database Schema
@@ -62,7 +62,7 @@ CREATE TABLE customers (
 ```
 
 ## Sample Data
-5 customers, 5 products, 5 orders, 7 order items, and 5 payments â€” including one cancelled order and one failed payment for realism.
+5 customers, 5 products, 5 orders, 7 order items, and 5 payments — including one cancelled order and one failed payment for realism.
 
 ## Queries
 
@@ -109,7 +109,7 @@ CREATE TABLE customers (
 ## How to Run
 1. Clone this repo
 2. Open `HARSH Ecommerce_SQL_Project_MySQL1.sql` in MySQL Workbench (or any MySQL client)
-3. Run it top to bottom â€” it creates the database, tables, inserts sample data, and runs every query in order
+3. Run it top to bottom — it creates the database, tables, inserts sample data, and runs every query in order
 
 ```bash
 mysql -u root -p < "HARSH Ecommerce_SQL_Project_MySQL1.sql"
