@@ -1,4 +1,4 @@
-# ðŸ›’ E-Commerce Sales & Customer Analytics Database
+🛒 E-Commerce Sales & Customer Analytics Database
 
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white&color=4479A1)
 ![SQL](https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge)
@@ -10,7 +10,7 @@ A MySQL project simulating a real-world e-commerce business â€” a normalize
 
 ---
 
-## ðŸ“‘ Table of Contents
+📑 Table of Contents
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
 - [Repository Structure](#repository-structure)
