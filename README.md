@@ -19,7 +19,7 @@ A MySQL project simulating a real-world e-commerce business â€” a normalize
 - [Queries](#queries)
 - [How to Run](#how-to-run)
 - [Skills Practiced](#skills-practiced)
-- [Notes / Limitations](#notes--limitations)
+
 
 ---
 
@@ -122,9 +122,7 @@ mysql -u root -p < "HARSH Ecommerce_SQL_Project_MySQL1.sql"
 - Window functions (`RANK`, `DENSE_RANK`, `ROW_NUMBER`)
 - Subqueries, `GROUP BY`, `HAVING`
 
-## Notes / Limitations
-- All order data falls in March 2024, so the monthly sales query only shows one month
-- Dataset is small (5 customers/orders), so results like "top customer" reflect just 1â€“2 transactions
+
 
 
 
